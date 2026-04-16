@@ -158,6 +158,11 @@ Read `.kiro/templates/Makefile`.
 Replace: `{{APP_NAME}}` → collected value.
 Write to `Makefile`.
 
+**Write `elk-teardown.sh`:**
+Read `.kiro/templates/elk-teardown.sh`. No substitution needed.
+Write to `elk-teardown.sh`.
+Run: `chmod +x elk-teardown.sh`
+
 **macOS note:** If `LOG_PATH` does not start with `/Users/` or `/home/`:
 > "macOS Docker Desktop: ensure {{LOG_DIR}} is in Docker → Preferences → Resources → File Sharing"
 
@@ -203,6 +208,7 @@ Write `ELK_README.md` to repo root with this content (substitute values):
 | `make logs` | Tail container logs |
 | `make status` | Container status + ES health |
 | `make clean` | Stop + delete all data volumes |
+| `make teardown` | Full removal: this repo's Kibana objects, containers, volumes, ELK files |
 
 ## Agents
 
