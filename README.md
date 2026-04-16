@@ -16,7 +16,7 @@ Three agents + one hook. Drop `.kiro/` into any repo with a log file.
 
 ## Quick Start
 
-1. Copy `.kiro/` folder into your project root
+1. Copy the `.kiro/` folder into your project root
 2. In Kiro, run agent: **elk-setup**
 3. Answer ~4 questions → stack running in ~60s
 4. Run agent: **kibana-agent** → describe your dashboard in plain English
