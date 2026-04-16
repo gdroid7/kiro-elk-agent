@@ -1,7 +1,7 @@
 {
   "name": "elk-setup",
   "description": "Interactive ELK stack setup for any repo with a log file. Installs Docker if needed, discovers log files, writes ELK config, starts stack, generates README. Terse caveman style throughout.",
-  "prompt": null,
+  "prompt": "elk-setup/elk-setup.md",
   "mcpServers": {},
   "tools": [
     "read",

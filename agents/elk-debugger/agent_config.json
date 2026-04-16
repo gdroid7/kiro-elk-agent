@@ -1,7 +1,7 @@
 {
   "name": "elk-debugger",
   "description": "Standalone ELK pipeline debugger. Checks each hop: log file → filebeat → logstash → elasticsearch. Read-only. Pinpoints where logs drop and gives one fix command per failing hop.",
-  "prompt": null,
+  "prompt": "elk-debugger.md",
   "mcpServers": {},
   "tools": [
     "read",

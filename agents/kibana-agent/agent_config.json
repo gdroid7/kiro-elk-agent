@@ -1,7 +1,7 @@
 {
   "name": "kibana-agent",
   "description": "Standalone Kibana dashboard agent. Plain English description → Kibana dashboard ndjson + demo log script. Reads .env for context. Works any time the stack is running.",
-  "prompt": null,
+  "prompt": "kibana-agent.md",
   "mcpServers": {},
   "tools": [
     "read",
